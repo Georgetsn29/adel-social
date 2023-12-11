@@ -326,7 +326,7 @@ body {
     font-weight: 700;
     font-size: 28px;
     color: #252525;
-    margin-bottom: 154px;
+    margin-bottom: 122px;
     text-align: center;
 }
 
@@ -439,6 +439,11 @@ footer {
     letter-spacing: 1px;
 }
 
+.fcon-p-lil span {
+    color: #0e4084;
+    font-weight: 700;
+}
+
 .foot-social {
     width: 193.65px;
     display: flex;
@@ -471,4 +476,503 @@ footer {
     color: #ffffff;
     text-align: center;
     padding-bottom: 13px;
+}
+
+
+@media only screen and (max-width: 1536px) {
+
+    .logo {
+        width: 192px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-left: 85.6px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 71.2px;
+    }
+    
+    .logo-p {
+        font-size: 19.2px;
+        color: #000000;
+        font-family: open sans;
+    }
+    
+    .logo-p span {
+        font-weight: 700;
+    }
+    
+    .header-nav {
+        width: 782.4px;
+        background-color: #2f80ed;
+        border-radius: 0px 0px 0px 209.6px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .nav {
+        width: 678.48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32.8px;
+        margin-left: 45.6px;
+        margin-bottom: 113.6px;
+    }
+    
+    .nav input {
+        width: 164.88px;
+        height: 34.4px;
+        border-radius: 15.2px;
+        border: none;
+        color: #2f80ed;
+        font-family: 'M PLUS Rounded 1c';
+        font-size: 19.2px;
+        font-weight: 500;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    .nav input::placeholder {
+        color: #2f80ed;
+    }
+    
+    .nav-main {
+        width: 424.112px;
+    }
+    
+    .nav-main ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .nav-main ul li a {
+        color: #ffffff;
+        font-family: 'M PLUS Rounded 1c';
+        font-size: 16px;
+    }
+    
+    .nav-2 {
+        height: 301.6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 156.8px;
+        margin-bottom: 144px;
+    }
+    
+    .nav-2 .nav-2-p {
+        color: #ffffff;
+        font-size: 21.6px;
+        font-family: 'open sans';
+        letter-spacing: -4.8%;
+    }
+    
+    .nav-main-2 {
+        height: 252px;
+    }
+    
+    .nav-main-2 ul li {
+        margin-top: 12px;
+    }
+    
+    .nav-main-2 ul li a {
+        color: #ffffff;
+        font-family: 'roboto';
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -4.8%;
+    }
+    
+    .header-text {
+        margin-top: 137.6px;
+        margin-left: 100px;
+    }
+    
+    .htext-big {
+        color: #000000;
+        font-size: 60.8px;
+        font-family: roboto;
+        font-weight: 700;
+        letter-spacing: -3.2px;
+        margin-bottom: 27.2px;
+    }
+    
+    .htext-lil {
+        color: #000000;
+        font-size: 19.2px;
+        font-family: roboto;
+        letter-spacing: -0.4px;
+    }
+    
+    .solution-main {
+        width: 988px;
+        background-color: #e0ecfd;
+        border-radius: 0 44px 44px 0;
+        grid-column-start: span 30;
+        grid-column-end: 30;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        height: 524px;
+    }
+    
+    .smain-p {
+        font-size: 38.4px;
+        font-family: roboto;
+        font-weight: 700;
+        color: #2f80ed;
+        letter-spacing: -1.6px;
+        padding-top: 24.8px;
+        margin-left: 101.6px;
+        padding-bottom: 25.6px;
+    }
+    
+    .smain-nav {
+        margin-left: 101.6px;
+    }
+    
+    .smain-nav ul li {
+        margin-top: 12px;
+    }
+    
+    .smain-nav ul li a {
+        color: #000000;
+        font-size: 17.6px;
+        font-family: open sans;
+    }
+    
+    .solution-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 100px;
+        row-gap: 100px;
+        margin-top: 276.8px;
+        overflow-x: hidden;
+    }
+
+    .ssitem-img {
+        width: 212px;
+        height: 212px;
+    }
+    
+    .item1 {
+        grid-column-start: 1;
+    }
+    
+    .item2 {
+        grid-column-start: 2;
+    }
+    
+    .item6 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+    
+    .item4 {
+        grid-column-start: 4;
+    }
+    
+    .item5 {
+        grid-column-start: 5;
+    }
+    
+    .item8 {
+        grid-column-start: 4;
+        grid-row-start: 3;
+    }
+    
+    .item9 {
+        grid-column-start: 5;
+        grid-row-start: 3;
+    }
+    
+    .item7 {
+        grid-column-start: 5;
+        grid-row-start: 2;
+    }
+    
+    .line {
+        width: 1273.216px;
+        height: 2.4px;
+        background-color: rgba(0, 0, 0, 0.25);
+        margin: -48px auto 40.8px;
+    }
+    
+    .solution-section-indepth {
+        width: 1282.4px;
+        margin: auto;
+    }
+    
+    .sosein {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 90.4px;
+        row-gap: 77.6px;
+    }
+    
+    .sosein-art {
+        width: 381.6px;
+        height: 240px;
+    }
+    
+    .sosein-art-big {
+        font-size: 28.8px;
+        color: #2f80ed;
+        font-family: roboto;
+        letter-spacing: -0.8px;
+        margin-bottom: 13.6px;
+    }
+    
+    .sosein-art-lil {
+        font-size: 17.6px;
+        color: #717171;
+        font-family: roboto;
+        letter-spacing: -0.8px;
+    }
+    
+    .sosein-btn {
+        font-size: 19.2px;
+        font-family: roboto;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #2f80ed;
+        padding-inline: 37.6px 44px;
+        padding-block: 12.8px 16.8px;
+        border-radius: 28.8px;
+    }
+    
+    .sosein-btn-div {
+        text-align: center;
+        margin-top: 68.8px;
+    }
+    
+    .right-img {
+        margin-left: 1176px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        margin-top: -37px;
+    }
+
+    .ritem-img {
+        width: 232.8px;
+        height: 232.8px;
+    }
+
+    .ritem-img-2 {
+        width: 151.2px;
+        height: 304px;
+    }
+    
+    .ritem-2 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    
+    .ritem-3 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+    
+    .ritem-4 {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+    
+    .comp-num {
+        width: 1135.2px;
+        margin-top: 192px;
+        background-color: rgba(47, 129, 237, .15);
+        border-radius: 0 129.6px 129.6px 0;
+    }
+    
+    .comp-num-inner {
+        width: 941.6px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .cnip-big {
+        font-family: roboto;
+        font-weight: 700;
+        font-size: 76.8px;
+        color: #2f80ed;
+        margin-bottom: 33.6px;
+        text-align: center;
+        margin-top: 97.6px;
+    }
+    
+    .cnip-lil {
+        font-family: roboto;
+        font-weight: 700;
+        font-size: 22.4px;
+        color: #252525;
+        margin-bottom: 97.6px;
+        text-align: center;
+    }
+    
+    .project-p {
+        font-size: 68px;
+        font-family: roboto;
+        font-weight: 700;
+        color: #2f80ed;
+        margin-top: 220px;
+        margin-left: 96px;
+    }
+    
+    .comp-project {
+        margin-top: 48px;
+        width: 1135.2px;
+        background-color: rgba(47, 129, 237, .15);
+        border-radius: 0 129.6px 129.6px 0;
+    }
+    
+    .comp-project-flex {
+        width: 925.6px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .cpi-p {
+        font-size: 28.8px;
+        font-family: open sans;
+        color: #252525;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 45.6px;
+    }
+    
+    .comp-project-img img {
+        margin-top: 86.4px;
+        width: 240px;
+        height: 180px;
+    }
+    
+    footer {
+        background-color: #2f80ed;
+        margin-top: 109.6px;
+    }
+    
+    .services-prov {
+        margin-left: 1076.8px;
+        position: absolute;
+    }
+    
+    .sev-prov-p {
+        padding-top: 75.2px;
+        font-size: 28.8px;
+        font-family: roboto;
+        color: #ffffff;
+        margin-bottom: 7.2px;
+    }
+    
+    .sp-line {
+        width: 285.648px;
+        height: 2.4px;
+        background-color: #92c1ff;
+        margin-bottom: 8px;
+    }
+    
+    .sp-fl {
+        width: 287.2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .sp-a {
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .sp-a a {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: roboto;
+        letter-spacing: -0.8px;
+    }
+    
+    .footer-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 673.6px;
+        padding-top: 129.6px;
+        padding-bottom: 132.8px;
+        margin-left: 171.2px;
+    }
+    
+    .fcon-p-big {
+        font-size: 19.2px;
+        font-family: roboto;
+        font-weight: 900;
+        color: #ffffff;
+        margin-bottom: 5.6px;
+        letter-spacing: 0.8px;
+    }
+    
+    .fcon-p-lil {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: roboto;
+        letter-spacing: 0.8px;
+    }
+
+    .fcon-p-lil span {
+        color: #0e4084;
+        font-weight: 700;
+    }
+    
+    .foot-social {
+        width: 154.92px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 169.6px;
+    }
+
+    .foot-social img {
+        width: 36px;
+        height: 37.024px;
+    }
+    
+    .nav-footer {
+        width: 432.8px; 
+        margin: auto;
+        padding-bottom: 21.6px;
+    }
+    
+    .nav-footer ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .nav-footer a {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'M PLUS Rounded 1c';
+    }
+    
+    .all-reserved {
+        font-size: 12px;
+        font-family: roboto;
+        color: #ffffff;
+        text-align: center;
+        padding-bottom: 10.4px;
+    }
 }
